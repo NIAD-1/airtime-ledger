@@ -1,0 +1,4 @@
+# Never publish exported customer or business records.
+market-ledger-backup-*.json
+market-ledger-records-*.csv
+*.ledger-backup.json
