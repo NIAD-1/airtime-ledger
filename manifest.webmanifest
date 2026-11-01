@@ -1,1 +1,14 @@
-{"name":"Market Ledger","short_name":"Ledger","start_url":"./index.html","display":"standalone","background_color":"#f5f3ec","theme_color":"#153f36","description":"Offline sales, stock, expenses and daily notes ledger","icons":[]}
+{
+  "id": "./",
+  "name": "Market Ledger — Airtime Inventory",
+  "short_name": "Market Ledger",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f3ec",
+  "theme_color": "#153f36",
+  "description": "Offline airtime card inventory, sales and records stored on this laptop.",
+  "icons": [
+    {"src":"./app-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}

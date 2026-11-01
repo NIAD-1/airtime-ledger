@@ -28,7 +28,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir public
-          cp index.html manifest.webmanifest sw.js public/
+          cp index.html manifest.webmanifest sw.js app-icon.svg public/
           touch public/.nojekyll
       - name: Upload site files
         uses: actions/upload-pages-artifact@v3
